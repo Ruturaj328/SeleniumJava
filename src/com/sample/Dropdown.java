@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Dropdown {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		ChromeOptions options = new ChromeOptions();
 		System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver-win64\\chromedriver.exe");
@@ -19,6 +19,7 @@ public class Dropdown {
 			
 
 	        // Launch the browser and open a website   
+		
 	        driver.navigate().to("https://demoqa.com/automation-practice-form");
 	        
 	     // Create object of the Select class
